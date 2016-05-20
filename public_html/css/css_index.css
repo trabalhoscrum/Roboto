@@ -1,0 +1,101 @@
+.navbar-default {
+    background-color:#FFFFFF;
+    border-color: #FFFFFF; 
+} 
+ .navbar-brand {
+     position: absolute;
+     padding-top: 10px; 
+     right: 5px; 
+     left: 60px; 
+ }
+ .navbar-nav {
+     position: absolute;
+     left: 300px;
+ }
+  body{
+     background-color: #ADD8E6;
+      
+ }
+ #img_logo{
+     position: absolute;
+     top: 1px;
+
+ }
+ #posi_peri{
+     position: absolute;
+     top: 75px;
+     left: 75px;
+ }
+ #posi_impressoras{
+     position: absolute;
+     top: 120px;
+     left: 65px;
+ }
+ #posi_games{
+     position: absolute;
+     top: 163px;
+     left: 80px;
+ }
+ #posi_mobilidade{
+     position: absolute;
+     top: 205px;
+     left: 75px;
+ }
+ .img_pen{
+      position: absolute;
+     top: 75px;
+     left: 300px;
+ }
+ .p_pen{
+      position: absolute;
+     top: 200px;
+     left: 300px;
+     font-style:Century Gothic;
+     font-size: 15px;
+ }
+ .img_imp{
+      position: absolute;
+     top: 75px;
+     left: 600px;
+ }
+ .p_imp{
+      position: absolute;
+     top: 200px;
+     left: 600px;
+     font-style:Century Gothic;
+     font-size: 15px;
+ }
+  .img_pt{
+      position: absolute;
+     top: 75px;
+     left: 950px;
+ }
+ .p_pt{
+      position: absolute;
+     top: 200px;
+     left: 950px;
+     font-style:Century Gothic;
+     font-size: 15px;
+ }
+ .img_pm{
+      position: absolute;
+     top: 270px;
+     left: 600px;
+ }
+ .p_pm{
+      position: absolute;
+     top: 430px;
+     left:  630px;
+     font-style:Century Gothic;
+     font-size: 15px;
+ }
+ .posi_links{
+     position: absolute;
+     top: 400px;
+     left: 20px;
+ }
+ .posi_linkf{
+     position: absolute;
+     top: 450px;
+     left: 20px;
+ }
