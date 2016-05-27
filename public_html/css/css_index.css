@@ -75,8 +75,8 @@ body{
 #botao {
     font-family: Century Gothic; 
     position: absolute;
-    top: 490px; 
-    right: 516px; 
+    top: 550px; 
+    left : 905px;
 }
 #botao2 {
     font-family: Century Gothic; 
@@ -98,6 +98,12 @@ body{
     right: 280px;
 }
 #esp1 {
+    width: 600px; 
+    position:absolute;
+    right:76px; 
+    top: 140px;
+}
+#esp4 {
     width: 600px; 
     position:absolute;
     right:76px; 
