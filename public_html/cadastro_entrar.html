@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Entre ou Cadastre-se</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/css_index.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand"  href="index.html0" ><img id="img_logo" src="Imagens/logo_roboto.jpg" alt="logo_roboto"/></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="sobre.html">Home</a></li>
+                    <li><a href="loja_jogo.html">Missão</a></li>
+                    <li><a href="cadastro.html">Visão</a></li>
+                    <li><a href="entrar.html">Sobre</a></li>
+                    <li><a href="chat.html"><img id="posi_chat" src="Imagens/icone_chat.png" /></a></li>
+                </ul>
+                
+            </div>  
+        </nav>
+        <img class="classediv" src="Imagens/divisoria.png" alt="divisoria" >
+        <p class="pentrar">Entrar</p>
+        <p class="pins">Cadastre-se</p>
+        <form role="form">
+            <div id="esp1">
+                <div class="form-group">
+                    <label for="text"></label>
+                    <input type="text" class="form-control" id="text" placeholder="Nome e Sobrenome">
+                </div>
+            </div>
+            <div id="esp2">
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd"></label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Senha">
+                </div>
+                <div class="form-group">
+                    <label for="pwd"></label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Confirmar Senha">
+                </div>
+            </div>       
+            <div id="botao">  
+                <button type="button" class="btn btn-success" value="Confirmar Cadastro"  onclick="confirmarcompra(confirmarcadastro())">Confirmar cadastro</button>
+            </div>
+        </form>
+        <form>
+            <div id="estiradio">
+                <input  type="radio" name="genero" value="M"> Feminino<br/>
+                <input type="radio" name="genero" value="F"> Masculino
+            </div>
+        </form>   
+        <div id="estilodata">
+            <div>
+                <a href="">Informe a data do seu nascimento</a>
+            </div>
+
+        </div>
+
+        <form role="form">
+            <div id="esp3">
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd"></label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Senha">
+                </div>
+            </div>
+        </form>
+        <button id= "botao2" type="button" class="btn btn-success" value="Entrar" onclick="confirmarcompra()" >Entrar</button>
+        <a id="linksenha">Esqueceu sua senha?</a>
+        <script src="javascript.js"></script>
+    </body>
+</html>
