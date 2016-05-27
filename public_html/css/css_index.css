@@ -2,100 +2,156 @@
     background-color:#FFFFFF;
     border-color: #FFFFFF; 
 } 
- .navbar-brand {
-     position: absolute;
-     padding-top: 10px; 
-     right: 5px; 
-     left: 60px; 
- }
- .navbar-nav {
-     position: absolute;
-     left: 300px;
- }
-  body{
-     background-color: #ADD8E6;
-      
- }
- #img_logo{
-     position: absolute;
-     top: 1px;
+.navbar-brand {
+    position: absolute;
+    padding-top: 10px; 
+    right: 5px; 
+    left: 60px; 
+}
+.navbar-nav {
+    position: absolute;
+    left: 300px;
+    font-family: Century Gothic;
+}
+body{
+    background-color: #ADD8E6;
 
- }
- #posi_peri{
-     position: absolute;
-     top: 75px;
-     left: 75px;
- }
- #posi_impressoras{
-     position: absolute;
-     top: 120px;
-     left: 65px;
- }
- #posi_games{
-     position: absolute;
-     top: 163px;
-     left: 80px;
- }
- #posi_mobilidade{
-     position: absolute;
-     top: 205px;
-     left: 75px;
- }
- .img_pen{
-      position: absolute;
-     top: 75px;
-     left: 300px;
- }
- .p_pen{
-      position: absolute;
-     top: 200px;
-     left: 300px;
-     font-style:Century Gothic;
-     font-size: 15px;
- }
- .img_imp{
-      position: absolute;
-     top: 75px;
-     left: 600px;
- }
- .p_imp{
-      position: absolute;
-     top: 200px;
-     left: 600px;
-     font-style:Century Gothic;
-     font-size: 15px;
- }
-  .img_pt{
-      position: absolute;
-     top: 75px;
-     left: 950px;
- }
- .p_pt{
-      position: absolute;
-     top: 200px;
-     left: 950px;
-     font-style:Century Gothic;
-     font-size: 15px;
- }
- .img_pm{
-      position: absolute;
-     top: 270px;
-     left: 600px;
- }
- .p_pm{
-      position: absolute;
-     top: 430px;
-     left:  630px;
-     font-style:Century Gothic;
-     font-size: 15px;
- }
- .posi_links{
-     position: absolute;
-     top: 400px;
-     left: 20px;
- }
- .posi_linkf{
-     position: absolute;
-     top: 450px;
-     left: 20px;
- }
+}
+#img_logo{
+    position: absolute;
+    top: 1px;
+
+}
+#posi_chat{
+    position: absolute;
+    top: 1px;
+    left: 600px;
+}
+#posi_peri{
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    font-family: Century Gothic;
+}
+#posi_impressoras{
+    position: absolute;
+    top: 120px;
+    left: 65px;
+    font-family: Century Gothic;
+}
+#posi_games{
+    position: absolute;
+    top: 163px;
+    left: 80px;
+    font-family: Century Gothic;
+}
+#posi_mobilidade{
+    position: absolute;
+    top: 205px;
+    left: 75px;
+    font-family: Century Gothic;
+}
+#posi_tabela{
+    position: absolute;
+    top: 75px;
+    left: 300px;
+}
+.estilo_descricao{
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #B22222;
+}
+.classediv {
+    position: absolute; 
+    padding-top: 90px; 
+    right: 695px;
+}
+#linksenha {
+    font-family: Century Gothic; 
+    position: absolute;
+    top: 350px; 
+    right: 1200px;
+}
+#botao {
+    font-family: Century Gothic; 
+    position: absolute;
+    top: 490px; 
+    right: 516px; 
+}
+#botao2 {
+    font-family: Century Gothic; 
+    position: absolute;
+    top: 300px; 
+    right: 1050px;
+}
+.pentrar {
+    font-size: 40px; 
+    color: #808080; 
+    font-family: Century Gothic; 
+    position: absolute; 
+    right: 995px;}
+.pins {
+    font-size: 40px; 
+    color: #808080; 
+    font-family: Century Gothic; 
+    position: absolute; 
+    right: 280px;
+}
+#esp1 {
+    width: 600px; 
+    position:absolute;
+    right:76px; 
+    top: 140px;
+}
+#esp2 {
+    width: 600px; 
+    position:absolute;
+    right:75px; 
+    top: 260px;
+} 
+#esp3 {
+    width: 600px; 
+    position: absolute; 
+    top: 140px; 
+    right: 750px;
+}
+#estiradio {
+    position: absolute; 
+    padding-top: 145px;
+    right: 580px; 
+    font-family: Century Gothic; 
+    color:#808080;
+}
+#estilodata {
+    font-family:Century Gothic; 
+    position: absolute;
+    top: 225px; 
+    right: 75px;  
+}
+#estilo_infoon{
+   font-size: 40px; 
+    color: #808080; 
+    font-family: Century Gothic; 
+}
+#estilo_quadrochat{
+    background-color: white;
+     border-radius: 10px;
+}
+#posi_campomsg{
+   border-radius: 5px;
+    width: 800px; 
+    height: 40px;
+    position: absolute;
+    top: 550px;
+    left: 285px;
+}
+#btn_enviar{
+    position: absolute;
+    top: 555px;
+    left:1100px;
+}
+#btn_sair{
+    position: absolute;
+    top: 555px;
+    left:1180px;
+}
