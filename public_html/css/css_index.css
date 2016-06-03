@@ -161,3 +161,22 @@ body{
     top: 555px;
     left:1180px;
 }
+#estilo_procurar{
+ border-radius: 5px;
+ width: 170px;
+}
+#posi_procurar{
+   position: absolute;
+   left: 800px;
+   top: 15px;
+   font-family:Century Gothic; 
+}
+#estilo_missao{
+    font-family: Century Gothic; 
+    font-size: 40px;
+    position: absolute;
+    top: 75px;
+    left: 300px;
+    color:#808080;
+    
+}
